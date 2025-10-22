@@ -39,7 +39,7 @@ else:
 SESSION_EXPIRATION_SECONDS = 30 * 60
 
 # --- USSD Menus ---
-MAIN_MENU = """CON Welcome to Crypt:
+MAIN_MENU = """CON Welcome to EasiCrypt Wallet:
 1. Set up
 2. Make a transaction
 3. Check details
