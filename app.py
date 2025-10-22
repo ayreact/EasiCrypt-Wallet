@@ -18,11 +18,7 @@ def ussd_callback():
     if not all([session_id, phone_number]):
         return "END Invalid USSD request.", 400
 
-    print(f"USSD Request - Session: {session_id}, Phone: {phone_number}, Text: '{text}'")
-
     response = handle_ussd_request(session_id, phone_number, text)
-
-    print(f"USSD Response - Session: {session_id}, Response: '{response}'")
 
     return response, 200, {'Content-Type': 'text/plain'}
 
