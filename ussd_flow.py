@@ -13,7 +13,7 @@ from utils import (
     is_valid_phone_number, call_off_ramp_api,
     estimate_token_transfer_gas, get_eth_balance_for_gas,
     SUPPORTED_TOKEN_SYMBOLS, CURRENT_NETWORK_TOKENS,
-    get_crypto_prices_usd # <--- ADDED THIS IMPORT
+    get_crypto_prices_usd
 )
 
 load_dotenv()
